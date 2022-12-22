@@ -2,7 +2,6 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Home from "./Routes/Home";
 import NotFound from "./Routes/NotFound";
-import Project from "./Routes/Project";
 
 function App() {
 	return (
