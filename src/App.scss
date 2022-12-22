@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Catamaran", sans-serif;
+}
+$primary-color: white;
+body {
+	background-image: url("./imgs/bg.svg");
+	background-position: center;
+	background-size: cover;
+	background-color: #070724;
+	font-size: 100%;
+	color: $primary-color;
+	main {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 1920px;
+		width: 98%;
+		margin: auto;
+		h1 {
+			color: transparent;
+			background: linear-gradient(135deg, #bada55, red, blue, purple);
+			-webkit-background-clip: text;
+			background-clip: text;
+			font-size: 5rem;
+			text-transform: capitalize;
+			font-weight: 500;
+			font-family: "Rubik Glitch", cursive;
+			letter-spacing: 6px;
+			text-align: center;
+		}
+		.not-found-page {
+			h1 {
+				font-weight: 400;
+				font-family: "Rubik Iso", cursive;
+			}
+		}
+	}
+}
