@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+
+// @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Iso&family=Rubik+Wet+Paint&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Iso&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -25,7 +28,8 @@ body {
 		margin: auto;
 		h1 {
 			color: transparent;
-			background: linear-gradient(135deg, #bada55, red, blue, purple);
+			background: linear-gradient(135deg, red, #bada55, blue, purple);
+
 			-webkit-background-clip: text;
 			background-clip: text;
 			font-size: 5rem;
@@ -34,12 +38,43 @@ body {
 			font-family: "Rubik Glitch", cursive;
 			letter-spacing: 6px;
 			text-align: center;
+			transition: all 0.3s;
+			animation: changeFont 0.2s linear 0.1s infinite alternate;
+			animation-play-state: paused;
+			&:hover {
+				animation-play-state: running;
+			}
 		}
 		.not-found-page {
 			h1 {
 				font-weight: 400;
 				font-family: "Rubik Iso", cursive;
+				animation: none;
 			}
 		}
+	}
+}
+
+@keyframes changeFont {
+	0% {
+		font-family: "Rubik Marker Hatch", cursive;
+		background: linear-gradient(135deg, purple, darkblue, red, #bada55);
+		-webkit-background-clip: text;
+		background-clip: text;
+	}
+	50% {
+		font-family: "Rubik Wet Paint", cursive;
+		background: linear-gradient(135deg, darkblue, red, purple, #bada55);
+		-webkit-background-clip: text;
+		background-clip: text;
+	}
+	100% {
+		font-family: "Rubik Glitch", cursive;
+
+		// background: linear-gradient(135deg, red, #bada55, blue, purple);
+		background: linear-gradient(135deg, #bada55, red, blue, purple);
+
+		-webkit-background-clip: text;
+		background-clip: text;
 	}
 }
