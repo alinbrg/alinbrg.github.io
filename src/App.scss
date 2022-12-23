@@ -42,7 +42,7 @@ body {
 			animation: changeFont 0.2s linear 0.1s infinite alternate;
 			animation-play-state: paused;
 			&:hover {
-				animation-play-state: running;
+				// animation-play-state: running;
 			}
 		}
 		.not-found-page {
