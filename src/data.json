@@ -1,0 +1,51 @@
+[
+	{
+		"name": "planets facts app",
+		"img": "assets/planets/mainImg.png",
+		"gallery": [
+			"assets/planets/gallery/1.png",
+			"assets/planets/gallery/2.png",
+			"assets/planets/gallery/3.png"
+		],
+		"repo": "https://github.com/alinbrg/planets-react-app",
+		"link": "https://alinbrg.github.io/planets-react-app/",
+		"tags": ["html", "css", "scss", "js", "react", "react router"]
+	},
+	{
+		"name": "github user search",
+		"img": "assets/github/mainImg.png",
+		"gallery": ["assets/github/gallery/1.png", "assets/github/gallery/2.png"],
+		"repo": "https://github.com/alinbrg/github-user-search",
+		"link": "https://alinbrg.github.io/github-user-search/",
+		"tags": ["html", "css", "scss", "js", "react", "api"]
+	},
+	{
+		"name": "note app",
+		"img": "assets/notes/mainImg.png",
+		"gallery": [
+			"assets/notes/gallery/1.png",
+			"assets/notes/gallery/2.png",
+			"assets/notes/gallery/3.png",
+			"assets/notes/gallery/4.png"
+		],
+		"repo": "https://github.com/alinbrg/note-app-react",
+		"link": "https://alinbrg.github.io/note-app-react/",
+		"tags": ["html", "css", "js", "react"]
+	},
+	{
+		"name": "ip address and domain tracker",
+		"img": "assets/domain/mainImg.png",
+		"gallery": ["assets/domain/gallery/1.png", "assets/domain/gallery/2.png"],
+		"repo": "https://github.com/alinbrg/ip-address-tracker-react",
+		"link": "https://alinbrg.github.io/ip-address-tracker-react/",
+		"tags": ["html", "css", "scss", "js", "react", "api"]
+	},
+	{
+		"name": "weather app",
+		"img": "assets/weather/mainImg.png",
+		"gallery": [],
+		"repo": "https://github.com/alinbrg/weather-app-react",
+		"link": "https://weather-app-react-7eec3.web.app/",
+		"tags": ["html", "css", "js", "react", "api", "firebase"]
+	}
+]
