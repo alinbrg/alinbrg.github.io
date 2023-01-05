@@ -9,7 +9,7 @@
 		],
 		"repo": "https://github.com/alinbrg/planets-react-app",
 		"link": "https://alinbrg.github.io/planets-react-app/",
-		"tags": ["html", "css", "scss", "js", "react", "react router"]
+		"tags": ["html", "css", "scss", "js", "react", "reactRouter"]
 	},
 	{
 		"name": "github user search",
@@ -45,7 +45,28 @@
 		"img": "assets/weather/mainImg.png",
 		"gallery": [],
 		"repo": "https://github.com/alinbrg/weather-app-react",
-		"link": "https://weather-app-react-7eec3.web.app/",
+		"link": "https://weather-app-react-7eec3.web.app",
 		"tags": ["html", "css", "js", "react", "api", "firebase"]
+	},
+	{
+		"name": "space app",
+		"img": "assets/space/mainImg.png",
+		"gallery": [
+			"assets/space/gallery/1.png",
+			"assets/space/gallery/2.png",
+			"assets/space/gallery/3.png",
+			"assets/space/gallery/4.png"
+		],
+		"repo": "https://github.com/alinbrg/space-react",
+		"link": "https://space-react-d2164.web.app/",
+		"tags": ["html", "css", "scss", "js", "react", "reactRouter", "firebase"]
+	},
+	{
+		"name": "portfolio landing page",
+		"img": "assets/portfolio/mainImg.png",
+		"gallery": [],
+		"repo": "https://github.com/alinbrg/portfolio-react",
+		"link": "https://portfolio-react-6d6cd.web.app/",
+		"tags": ["html", "css", "js", "react", "firebase"]
 	}
 ]

@@ -1,7 +1,12 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import "./App.scss";
+
+import "swiper/css";
+import "swiper/css/effect-cards";
+import "animate.css";
+
 import Home from "./Routes/Home";
 import NotFound from "./Routes/NotFound";
+import "./App.scss";
 
 function App() {
 	return (
