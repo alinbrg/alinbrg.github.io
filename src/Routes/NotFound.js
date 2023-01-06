@@ -1,5 +1,7 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import errImg from "../imgs/404.svg";
+
 export default function NotFound({ title }) {
 	useEffect(() => {
 		document.title = title;
@@ -16,7 +18,8 @@ export default function NotFound({ title }) {
 	return (
 		<>
 			<section className="not-found-page">
-				<h1>404 page</h1>
+				<h1>The page you're looking for can't be found</h1>
+				<Link to={"/"}>OKAY</Link>
 			</section>
 		</>
 	);

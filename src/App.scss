@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
-
-// @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Iso&family=Rubik+Wet+Paint&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Iso&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Rubik+Vinyl&family=Rubik+Glitch&family=Rubik+Iso&display=swap");
 
 $primary-color: white;
 * {
@@ -29,6 +25,22 @@ body {
 		width: 98%;
 		margin: auto;
 		overflow-x: hidden;
+
+		.soon h1,
+		.not-found-page h1 {
+			color: transparent;
+			background: linear-gradient(135deg, red, #bada55, blue, purple);
+
+			-webkit-background-clip: text;
+			background-clip: text;
+			font-size: clamp(3rem, 2vw, 5rem);
+
+			text-transform: capitalize;
+			font-weight: 500;
+			font-family: "Rubik Glitch", cursive;
+			letter-spacing: 6px;
+			text-align: center;
+		}
 		.soon {
 			height: 100vh;
 
@@ -36,26 +48,31 @@ body {
 			align-items: center;
 			justify-content: center;
 			h1 {
-				color: transparent;
-				background: linear-gradient(135deg, red, #bada55, blue, purple);
-
-				-webkit-background-clip: text;
-				background-clip: text;
-				font-size: 5rem;
-				text-transform: capitalize;
-				font-weight: 500;
-				font-family: "Rubik Glitch", cursive;
-				letter-spacing: 6px;
-				text-align: center;
-				transition: all 0.3s;
+				font-family: "Rubik Vinyl", cursive;
 			}
 		}
-
 		.not-found-page {
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
 			h1 {
 				font-weight: 400;
 				font-family: "Rubik Iso", cursive;
-				animation: none;
+				background: linear-gradient(45deg, cyan, red, #bada55, purple);
+				-webkit-background-clip: text;
+				background-clip: text;
+			}
+			a {
+				border-radius: 1rem;
+				padding: 1rem 2rem;
+				background-color: rgba(0, 0, 0, 0.39);
+				font-size: 1.2rem;
+				margin-top: 1rem;
+				&:hover {
+					background-color: black;
+				}
 			}
 		}
 		.projects-listing {
@@ -131,7 +148,7 @@ body {
 
 					-webkit-background-clip: text;
 					background-clip: text;
-					font-size: 4rem;
+					font-size: clamp(3rem, 2vw, 4rem);
 					text-transform: capitalize;
 					font-weight: 500;
 					font-family: "Rubik Glitch", cursive;
@@ -146,11 +163,11 @@ body {
 					}
 					a {
 						text-decoration: underline;
-						color: $primary-color;
+						color: rgba($color: $primary-color, $alpha: 0.5);
 
 						font-size: 1.4rem;
 						&:hover {
-							color: rgb(149, 150, 151);
+							color: rgba($color: $primary-color, $alpha: 0.9);
 						}
 					}
 				}
@@ -185,6 +202,12 @@ body {
 					.see-more {
 						text-align: right;
 					}
+					h2 {
+						background: linear-gradient(90deg, purple, darkblue, cyan);
+
+						-webkit-background-clip: text;
+						background-clip: text;
+					}
 				}
 
 				@media (width<=1024px) {
@@ -204,6 +227,12 @@ body {
 							"tags"
 							"image"
 							"links";
+						h2 {
+							background: linear-gradient(90deg, cyan, blue, purple);
+
+							-webkit-background-clip: text;
+							background-clip: text;
+						}
 					}
 					.images {
 						height: auto;

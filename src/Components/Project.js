@@ -53,10 +53,7 @@ export default function Project({ project }) {
 						</a>
 					</p>
 					<p>
-						Project Live Link:{" "}
-						<a target="_blank" href={project.link}>
-							{project.link}
-						</a>
+						Project Live Link: <a href={project.link}>{project.link}</a>
 					</p>
 				</div>
 				<div className="tags">

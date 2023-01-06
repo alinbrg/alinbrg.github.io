@@ -2,17 +2,27 @@
 import { useEffect, useState } from "react";
 import Project from "../Components/Project";
 import data from "../data.json";
+import iconImg from "../imgs/favicon.ico";
+
 export default function Home({ title }) {
 	const [projects, setProjects] = useState(data);
 
 	useEffect(() => {
 		document.title = title;
+
+		let link = document.querySelector("link[rel~='icon']");
+		if (!link) {
+			link = document.createElement("link");
+			link.rel = "icon";
+			document.getElementsByTagName("head")[0].appendChild(link);
+		}
+		link.href = iconImg;
 	}, []);
 
 	return (
 		<>
 			<div className="soon">
-				<h1>Coming soon</h1>
+				<h1>Welcome</h1>
 			</div>
 			<section className="projects-listing">
 				{projects.map((project) => (
