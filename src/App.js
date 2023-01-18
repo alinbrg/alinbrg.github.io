@@ -6,6 +6,9 @@ import "swiper/css/effect-cards";
 import Home from "./Routes/Home";
 import NotFound from "./Routes/NotFound";
 import "./App.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function App() {
 	return (

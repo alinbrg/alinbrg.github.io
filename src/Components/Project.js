@@ -10,20 +10,27 @@ export default function Project({ project }) {
 	return (
 		<>
 			<div className="project-card ">
-				<h2>{project.name}</h2>
+				<h2 data-aos="fade-up">{project.name}</h2>
 				<div className={isSliderActive ? "images active" : "images "}>
 					{project.gallery.length > 0 && (
 						<h4
+							data-aos="fade-up"
 							className="see-more"
 							onClick={() => setIsSliderActive(!isSliderActive)}
 						>
 							{isSliderActive ? "close slider" : "open slider"}
 						</h4>
 					)}
-					<img className="main-img " src={project.img} alt={project.name} />
+					<img
+						data-aos="zoom-in-up"
+						data-aos-duration="1000"
+						className="main-img "
+						src={project.img}
+						alt={project.name}
+					/>
 					{project.gallery.length > 0 && (
 						<>
-							<div className="slider">
+							<div className="slider" data-aos="fade-up">
 								<Swiper
 									effect={"cards"}
 									grabCursor={true}
@@ -46,17 +53,17 @@ export default function Project({ project }) {
 					)}
 				</div>
 				<div className="links">
-					<p>
+					<p data-aos="fade-up">
 						Github Repo:{" "}
 						<a target="_blank" href={project.repo}>
 							{project.repo}
 						</a>
 					</p>
-					<p>
+					<p data-aos="fade-up">
 						Project Live Link: <a href={project.link}>{project.link}</a>
 					</p>
 				</div>
-				<div className="tags">
+				<div className="tags" data-aos="fade-up">
 					<ul>
 						{project.tags.map((tag) => {
 							return <li key={tag}>{tag}</li>;
