@@ -221,12 +221,6 @@ body {
 					.see-more {
 						text-align: right;
 					}
-					h2 {
-						background: linear-gradient(90deg, purple, darkblue, cyan);
-
-						-webkit-background-clip: text;
-						background-clip: text;
-					}
 				}
 
 				@media (width<=1024px) {
@@ -246,12 +240,6 @@ body {
 							"tags"
 							"image"
 							"links";
-						h2 {
-							background: linear-gradient(90deg, cyan, blue, purple);
-
-							-webkit-background-clip: text;
-							background-clip: text;
-						}
 					}
 					.images {
 						height: auto;
