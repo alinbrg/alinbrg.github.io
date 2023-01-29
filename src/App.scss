@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Rubik+Vinyl&family=Rubik+Glitch&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Rubik+Glitch&display=swap");
 
 $primary-color: white;
 * {
@@ -47,18 +47,12 @@ body {
 
 		.soon h1,
 		.not-found-page h1 {
-			color: transparent;
-			background: linear-gradient(135deg, red, #bada55, blue, purple);
-
-			-webkit-background-clip: text;
-			background-clip: text;
-			font-size: clamp(3rem, 2vw, 5rem);
-
 			text-transform: capitalize;
 			font-weight: 500;
 			font-family: "Rubik Glitch", cursive;
 			letter-spacing: 6px;
 			text-align: center;
+			font-size: clamp(3rem, 2vw, 5rem);
 		}
 		.soon {
 			height: 100vh;
@@ -67,7 +61,11 @@ body {
 			align-items: center;
 			justify-content: center;
 			h1 {
-				font-family: "Rubik Vinyl", cursive;
+				color: transparent;
+				background: linear-gradient(135deg, red, #bada55, blue, purple);
+
+				-webkit-background-clip: text;
+				background-clip: text;
 			}
 		}
 		.not-found-page {
@@ -78,10 +76,7 @@ body {
 			flex-direction: column;
 			h1 {
 				font-weight: 400;
-				font-family: "Rubik Iso", cursive;
-				background: linear-gradient(45deg, cyan, red, #bada55, purple);
-				-webkit-background-clip: text;
-				background-clip: text;
+				color: white;
 			}
 			a {
 				border-radius: 1rem;
