@@ -24,11 +24,11 @@ export default function Home({ title }) {
 			<div className="soon">
 				<h1>Welcome</h1>
 			</div>
-			<section className="projects-listing">
+			{/* <section className="projects-listing">
 				{projects.map((project) => (
 					<Project project={project} key={project.name} />
 				))}
-			</section>
+			</section> */}
 			<footer>
 				<a href="https://github.com/alinbrg/" target="_blank">
 					@alinbrg
