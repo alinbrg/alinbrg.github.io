@@ -1,0 +1,189 @@
+[
+	{
+		"name": "note app (react)",
+		"live": "https://alinbrg.github.io/note-app-react/",
+		"repo": "https://github.com/alinbrg/note-app-react"
+	},
+
+	{
+		"name": "github user search (react)",
+		"live": "https://alinbrg.github.io/github-user-search/",
+		"repo": "https://github.com/alinbrg/github-user-search"
+	},
+	{
+		"name": "planet facts (react)",
+		"live": "https://alinbrg.github.io/planets-react-app/",
+		"repo": "https://github.com/alinbrg/planets-react-app"
+	},
+	{
+		"name": "ip address tracker (react)",
+		"live": "https://alinbrg.github.io/ip-address-tracker-react/",
+		"repo": "https://github.com/alinbrg/ip-address-tracker-react"
+	},
+	{
+		"name": "landing page about space (react)",
+		"live": "https://space-react-d2164.web.app/",
+		"repo": "https://github.com/alinbrg/space-react"
+	},
+	{
+		"name": "weather app (react)",
+		"live": "https://weather-app-react-7eec3.web.app/",
+		"repo": "https://github.com/alinbrg/weather-app-react"
+	},
+	{
+		"name": "portfolio page in two languages (react)",
+		"live": "https://portfolio-react-6d6cd.web.app/",
+		"repo": "https://github.com/alinbrg/portfolio-react"
+	},
+	{
+		"name": "travel journal",
+		"live": "https://travel-journal-626c2.web.app/",
+		"repo": "https://github.com/alinbrg/travel-journal"
+	},
+
+	{
+		"name": "meme generator (react)",
+		"live": "https://meme-generator-30bf9.web.app/",
+		"repo": "https://github.com/alinbrg/meme-generator"
+	},
+	{
+		"name": "digital business card",
+		"live": "https://digital-business-card-9c38e.firebaseapp.com/",
+		"repo": "https://github.com/alinbrg/digital-business-card"
+	},
+	{
+		"name": "chat app (vue)",
+		"live": "https://alinbrg.github.io/chat-vue/",
+		"repo": "https://github.com/alinbrg/chat-vue"
+	},
+	{
+		"name": "Movie search (vue)",
+		"live": "https://alinbrg.github.io/movie-search-vue/",
+		"repo": "https://github.com/alinbrg/movie-search-vue"
+	},
+	{
+		"name": "covid tracker (vue)",
+		"live": "https://alinbrg.github.io/covid-19-vue/",
+		"repo": "https://github.com/alinbrg/covid-19-vue"
+	},
+	{
+		"name": "weather app (vue)",
+		"live": "https://alinbrg.github.io/weather-app-vue/",
+		"repo": "https://github.com/alinbrg/weather-app-vue"
+	},
+	{
+		"name": "add tasks app (vue)",
+		"live": "https://alinbrg.github.io/tasks/",
+		"repo": "https://github.com/alinbrg/tasks"
+	},
+	{
+		"name": "simple to do app (vue)",
+		"live": "https://alinbrg.github.io/todo-vue/",
+		"repo": "https://github.com/alinbrg/todo-vue"
+	},
+	{
+		"name": "Draw on canvas",
+		"live": "https://alinbrg.github.io/canvas/",
+		"repo": "https://github.com/alinbrg/canvas"
+	},
+	{
+		"name": "simple panels",
+		"live": "https://alinbrg.github.io/panels/",
+		"repo": "https://github.com/alinbrg/panels"
+	},
+	{
+		"name": "update css variables with js",
+		"live": "https://alinbrg.github.io/variables-css-js/",
+		"repo": "https://github.com/alinbrg/variables-css-js"
+	},
+	{
+		"name": "Play music using keyboard",
+		"live": "https://alinbrg.github.io/play-keyboard/",
+		"repo": "https://github.com/alinbrg/play-keyboard"
+	},
+	{
+		"name": "speech recognition",
+		"live": "https://alinbrg.github.io/speech-recognition/",
+		"repo": "https://github.com/alinbrg/speech-recognition"
+	},
+	{
+		"name": "Speech Synthesis",
+		"live": "https://alinbrg.github.io/speech-synthesis/",
+		"repo": "https://github.com/alinbrg/speech-synthesis"
+	},
+	{
+		"name": "Filter Cities",
+		"live": "https://alinbrg.github.io/cities/",
+		"repo": "https://github.com/alinbrg/cities"
+	},
+	{
+		"name": "use local storage",
+		"live": "https://alinbrg.github.io/storage/",
+		"repo": "https://github.com/alinbrg/storage"
+	},
+	{
+		"name": "simple clock",
+		"live": "https://alinbrg.github.io/clock/",
+		"repo": "https://github.com/alinbrg/clock"
+	},
+	{
+		"name": "using css shadow",
+		"live": "https://alinbrg.github.io/shadow/",
+		"repo": "https://github.com/alinbrg/shadow"
+	},
+	{
+		"name": "simple countdown",
+		"live": "https://alinbrg.github.io/countdown/",
+		"repo": "https://github.com/alinbrg/countdown"
+	},
+	{
+		"name": "landing page with slide in images",
+		"live": "https://alinbrg.github.io/slide/",
+		"repo": "https://github.com/alinbrg/slide"
+	},
+	{
+		"name": "simple quiz",
+		"live": "https://alinbrg.github.io/quiz/",
+		"repo": "https://github.com/alinbrg/quiz"
+	},
+	{
+		"name": "snake game",
+		"live": "https://alinbrg.github.io/snake/",
+		"repo": "https://github.com/alinbrg/snake"
+	},
+	{
+		"name": "tic-tac-toe",
+		"live": "https://alinbrg.github.io/tic-tac-toe/",
+		"repo": "https://github.com/alinbrg/tic-tac-toe"
+	},
+	{
+		"name": "memory game",
+		"live": "https://alinbrg.github.io/flip-cards/",
+		"repo": "https://github.com/alinbrg/flip-cards"
+	},
+	{
+		"name": "wordle game clone",
+		"live": "https://alinbrg.github.io/wordle-game-clone/",
+		"repo": "https://github.com/alinbrg/wordle-game-clone"
+	},
+	{
+		"name": "simple landing page",
+		"live": "https://alinbrg.github.io/nav-sticky/",
+		"repo": ""
+	},
+	{
+		"name": "Simple portfolio page",
+		"live": "https://alinbrg.github.io/for-test/",
+		"repo": "https://github.com/alinbrg/for-test"
+	},
+	{
+		"name": "Documentation page",
+		"live": "https://alinbrg.github.io/technical-documentation/",
+		"repo": "https://github.com/alinbrg/technical-documentation"
+	},
+	{
+		"name": "survey form",
+		"live": "https://alinbrg.github.io/watch-survey/",
+		"repo": "https://github.com/alinbrg/watch-survey"
+	}
+]
