@@ -47,11 +47,6 @@
 		"repo": "https://github.com/alinbrg/meme-generator"
 	},
 	{
-		"name": "digital business card",
-		"live": "https://digital-business-card-9c38e.firebaseapp.com/",
-		"repo": "https://github.com/alinbrg/digital-business-card"
-	},
-	{
 		"name": "chat app (vue)",
 		"live": "https://alinbrg.github.io/chat-vue/",
 		"repo": "https://github.com/alinbrg/chat-vue"

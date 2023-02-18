@@ -4,10 +4,10 @@ export default function SimpleProject({ name, live, repo }) {
 			<h3 className="title">{name}</h3>
 
 			<a className="repo" href={repo} target="_blank" rel="noreferrer">
-				&#128447; Repository
+				🖿 Repository
 			</a>
 			<a className="live" href={live}>
-				&#128435; Website
+				🖳 Website
 			</a>
 		</div>
 	);
