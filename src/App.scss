@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Rubik+Glitch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Droid+Sans&family=Rubik+Glitch&display=swap");
 
 $primary-color: white;
 html {
@@ -9,11 +9,11 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Catamaran", sans-serif;
 	list-style: none;
 	text-decoration: none;
 	transition: all 0.3s;
 	color: $primary-color;
+	font-family: "Droid Sans", sans-serif;
 }
 
 /* width */
