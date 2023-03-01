@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Cryptocurrencies And News (react)",
+		"live": "https://alinbrg.github.io/crypto-app/",
+		"repo": "https://github.com/alinbrg/crypto-app"
+	},
+	{
 		"name": "note app (react)",
 		"live": "https://alinbrg.github.io/note-app-react/",
 		"repo": "https://github.com/alinbrg/note-app-react"
