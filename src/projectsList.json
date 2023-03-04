@@ -56,26 +56,13 @@
 		"live": "https://alinbrg.github.io/chat-vue/",
 		"repo": "https://github.com/alinbrg/chat-vue"
 	},
-	{
-		"name": "Movie search (vue)",
-		"live": "https://alinbrg.github.io/movie-search-vue/",
-		"repo": "https://github.com/alinbrg/movie-search-vue"
-	},
+
 	{
 		"name": "covid tracker (vue)",
 		"live": "https://alinbrg.github.io/covid-19-vue/",
 		"repo": "https://github.com/alinbrg/covid-19-vue"
 	},
-	{
-		"name": "weather app (vue)",
-		"live": "https://alinbrg.github.io/weather-app-vue/",
-		"repo": "https://github.com/alinbrg/weather-app-vue"
-	},
-	{
-		"name": "add tasks app (vue)",
-		"live": "https://alinbrg.github.io/tasks/",
-		"repo": "https://github.com/alinbrg/tasks"
-	},
+
 	{
 		"name": "simple to do app (vue)",
 		"live": "https://alinbrg.github.io/todo-vue/",
