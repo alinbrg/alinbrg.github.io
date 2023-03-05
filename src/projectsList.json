@@ -1,5 +1,10 @@
 [
 	{
+		"name": "recipe app (vue)",
+		"live": "https://github.com/alinbrg/recipe-app-vue",
+		"repo": "https://alinbrg.github.io/recipe-app-vue/"
+	},
+	{
 		"name": "Cryptocurrencies And News (react)",
 		"live": "https://alinbrg.github.io/crypto-app/",
 		"repo": "https://github.com/alinbrg/crypto-app"
@@ -63,11 +68,7 @@
 		"repo": "https://github.com/alinbrg/covid-19-vue"
 	},
 
-	{
-		"name": "simple to do app (vue)",
-		"live": "https://alinbrg.github.io/todo-vue/",
-		"repo": "https://github.com/alinbrg/todo-vue"
-	},
+
 	{
 		"name": "Draw on canvas",
 		"live": "https://alinbrg.github.io/canvas/",
