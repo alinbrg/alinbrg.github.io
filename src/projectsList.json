@@ -1,5 +1,15 @@
 [
 	{
+		"name": "3D Scroll Animations",
+		"live": "https://alinbrg.github.io/3D_Scroll_Animations/",
+		"repo": "https://github.com/alinbrg/3D_Scroll_Animations"
+	},
+	{
+		"name": "pwa weather app",
+		"live": "https://alinbrg.github.io/pwa-react-app/",
+		"repo": "https://github.com/alinbrg/pwa-react-app"
+	},
+	{
 		"name": "chat app (react)",
 		"live": "https://poetic-cat-9b4685.netlify.app/",
 		"repo": "https://github.com/alinbrg/chat-react-client"
